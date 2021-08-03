@@ -1,0 +1,40 @@
+.learn_inner{
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.learn_inner h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.learn_object{
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.learn_item{
+    width: calc(80%/3 - 1%);
+    padding: 0 30px;
+}
+
+.learn_item h3{
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 30px;
+}
+
+.learn_item p{
+    color: #9b9b9b;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+.learn_item h1{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+@import url("./vendor/reset.css");
+@import url("./vendor/same.css");
+@import url("./components/header.css");
+@import url("./components/home.css");
+@import url("./components/learn.css");
+@import url("./components/counter.css");
+@import url("./components/speaker.css");
+@import url("./components/schedule.css");
+@import url("./components/plan.css");
+@import url("./components/register.css");
+@import url("./components/footer.css");
+@import url("./components/adaptive.css")

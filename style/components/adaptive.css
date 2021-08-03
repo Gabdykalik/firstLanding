@@ -1,0 +1,179 @@
+
+@media(max-width:1200px){
+    .counter{
+        padding-bottom: 100px;
+    }
+    .counter_object{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .counter_item{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .speaker_item:last-child{
+        width: 26%;
+    }
+    
+    .schedule_data{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .schedule_time{
+        width: 100%;
+        text-align: center;
+    }
+
+    .schedule_lesson{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .plan_object{
+        flex-wrap: wrap;
+        margin-top: -30px;
+    }
+
+    .plan_item{
+        width: calc(90%/2);
+        border: 1px solid #f5f5f5;
+        padding: 16px;
+    }
+
+    .footer_inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer_contacts{
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer_citate{
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 725px){
+    .header_inner{
+        justify-content: center;
+    }
+
+    .media {
+        display: none;
+    }
+    .bar{
+        opacity: 1;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .btn{
+        justify-self: center;
+    }
+
+    .home{
+        height: 90vh;
+        background-position: top;
+    }
+
+    .learn_object{
+        flex-wrap: wrap;
+    }
+
+    .learn_item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .counter{
+        height: 75vh;
+    }
+    .counter_item{
+        width: 100%;
+    }
+
+    .speaker_object{
+        flex-wrap: wrap;
+    }
+
+    .speaker_inner{
+        margin-top: 20px;
+    }
+
+    .speaker_inner p{
+        margin-bottom: -10px;
+    }
+
+    .speaker_item{
+        width: 80% !important;
+        margin-bottom: 50px;
+    }
+
+    .plan_item{
+        width: 80%;
+    }
+
+    .register{
+        height: 25vh;
+    }
+
+    .register_inner{
+        width: 90%;
+    }
+
+    .footer_citate{
+        width: 80%;
+    }
+}
+
+@media(max-width:500px){
+    .home_btns{
+        width: 330px;
+    }
+    
+    .home_tickets{
+        padding: 12px 34px;
+    }
+
+    .home_video{
+        padding: 12px 34px;
+    }
+}
+
+@media(max-width:350px){
+    .home{
+        height: 100vh;
+    }
+
+    .home_inner img{
+        width: 80%;
+    }
+
+    .home_btns{
+        width: 260px;
+    }
+
+    .home_tickets{
+        padding: 12px 20px;
+    }
+
+    .home_video{
+        padding: 12px 20px;
+    }
+
+    .register{
+        height: 40vh;
+    }
+
+    .footer_citate{
+        width: 95%;
+    }
+}

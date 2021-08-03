@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300&display=swap');
+
+.body{
+    font-family: "Open Sans", "PT Sans", sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn a{
+    border: 1px solid #ff4514;
+    background-color: #ff4514;
+    border-radius: 20px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.btn a:hover{
+    background-color: #ca0000;
+    border-color: #ca0000;
+}
+
+.section_padding{
+    padding-top: 8%;
+}

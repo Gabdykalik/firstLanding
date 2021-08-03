@@ -1,0 +1,90 @@
+.home{
+    background-image: url(/img/main.jpg);
+    background-size: cover;
+    height: 78vh;
+    position: relative;
+    padding-top: 8%;
+}
+
+
+
+.home_inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.home_inner img{
+    margin: 5px auto;
+}
+
+.home_title p{
+    color: #fff;
+    width: 60%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px auto 0;
+}
+
+.home_contact{
+    display: flex;
+    margin: 60px auto 60px;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.home_info{
+    display: flex;
+    align-items: center;
+}
+
+.home_contact i{
+    color: #ff4514;
+    margin-right: 10px;
+}
+
+.home_contact p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.home_btns{
+    display: flex;
+    margin: 60px auto;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.home_tickets{
+    padding: 18px 60px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 1px solid #ff4514;
+    background-color: #ff4514;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.home_video{
+    background-color: transparent;
+    padding: 18px 60px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 1px solid #ff4514;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.home_video:hover, .home_tickets:hover{
+    background-color: #ca0000;
+    border-color: #ca0000;
+}
+
+
+
+

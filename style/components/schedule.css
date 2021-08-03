@@ -1,0 +1,94 @@
+.schedule{
+    background-image: url("/img/schedule.jpg");
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+.schedule_inner{
+    text-align: center;
+}
+
+.schedule_inner h2{
+    font-size: 48px;
+    font-weight: 600;   
+}
+
+.schedule_inner p{
+    font-size: 16px;
+    color: #9b9b9b;
+    margin-top: 18px;
+}
+
+
+.schedule_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 80px auto 0;
+    border: 1px solid #9b9b9b;
+    background-color: #fff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.schedule_item{
+    padding: 20px 60px 10px;
+    line-height: 5px;
+    text-align: center;
+}
+.schedule_item a{
+    color: #9b9b9b;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.schedule_item p{
+    font-size: 10px ;
+    font-weight: 600;
+}
+
+.schedule_data{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 80px auto 20px;
+    align-items: center;
+}
+
+.schedule_time{
+    width: 250px;
+    text-align: right;
+}
+
+.schedule_time h1{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.schedule_time h2{
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin-top: 15px;
+}
+
+.schedule_lesson{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border: 1px solid #9b9b9b;
+    background-color: #fff;
+    height: 90px;
+    width: 450px;
+    font-size: 24px;
+}
+
+.schedule_lesson::before{
+    content: "";
+    position: absolute;
+    border-color: transparent;
+    border-width: 12px 12px 12px 0;
+}

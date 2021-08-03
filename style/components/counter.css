@@ -1,0 +1,37 @@
+.counter{
+    background-image: url("/img/counter.jpg");
+    height: 18vh;
+    background-size: cover;
+    padding-bottom: 4%;
+    padding-top: 6%;
+}
+
+.counter_inner{
+    display: flex;
+    justify-content: center;
+}
+
+.counter_object{
+    display: flex;
+    text-align: center;
+    width: 87%;
+}
+
+.counter_item{
+    width: calc(100%/4);
+}
+
+.counter_item h2{
+    font-size: 66px;
+    color: #ff4514;
+    font-weight: 700;
+}
+
+.counter_item h3{
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+}

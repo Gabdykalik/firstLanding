@@ -1,0 +1,53 @@
+.register{
+    background-image: url(/img/bg-04-1920x585.jpg);
+    background-size: cover;
+    min-height: 100%;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.register_inner{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    width: 70%;
+}
+
+.register_inner h1{
+    font-size: 48px;
+    font-weight: 600;  
+    color: #fff;
+    text-align: center;
+}
+
+.register_inner p{
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    line-height: 20px;
+}
+
+.register_btn{
+    display: block;
+    margin: 20px auto;
+}
+
+.register_btn a{
+    background-color: #ff4514;
+    padding: 15px 70px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #ff4514;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.register_btn a:hover{
+    color: #fff;
+    background-color: #ca0000;
+    border-color: #ca0000;
+}
